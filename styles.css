@@ -21,3 +21,42 @@
 body {
     background-color: var(--color-1);
 }
+
+header {
+    margin: 1.5em 0 0 1.5em;
+    font-size: 1.25em;
+    color: var(--color-2);
+    outline: 1px solid red;
+}
+
+#desktop-nav-container {
+    position: fixed;
+    bottom: 12em;
+    right: .01vw;
+}
+
+#desktop-nav {
+    list-style: none;
+    color: var(--color-2);
+    display: flex;
+    flex-direction: row;
+    transform: rotate(90deg);
+    width: 22em;
+    outline: 1px solid blue;
+    padding: 1em 0;
+}
+
+#desktop-nav li {
+    padding: 1em;
+}
+
+#desktop-nav li:hover {
+    transform: scale(2);
+    padding: 2em;
+}
+
+
+
+#space {
+    height: 90vh;
+}
