@@ -1,0 +1,23 @@
+:root {
+    --color-1: rgb(14, 14 ,14);
+    --color-2: rgb(238, 238, 238);
+    --color-temp: rgb(33, 33, 33);
+}
+
+/* @font-face {
+    font-family: deathFont;
+    src: url(lib/fonts/death-font.ttf);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-1);
+}
